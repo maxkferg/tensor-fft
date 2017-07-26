@@ -1,8 +1,8 @@
-# Tensor FFT
+# Tensorflow FFT
 An efficient implementation of Welches method for calculating periodograms
 
 
-# Welches Method
+## Welches Method
 A massively parrallel implimentation of Welches method with support for batching and GPU execution.
 Implimented with Tensorflow.
 
@@ -24,3 +24,11 @@ with tf.Session() as sess:
 	# Plot the periodograms
 	plt.plot(frequencies, amplitudes)
 ```
+
+## Serving
+TODO
+
+
+
+## License
+MIT
